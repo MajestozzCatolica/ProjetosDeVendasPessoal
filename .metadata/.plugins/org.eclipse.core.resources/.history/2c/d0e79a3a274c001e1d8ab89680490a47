@@ -1,0 +1,9 @@
+package com.amazon;
+
+import java.util.ArrayList;
+
+public class listaProdutos {
+	ArrayList<ListaCadastrados> listaCadastros = new ArrayList<>();
+	
+
+}

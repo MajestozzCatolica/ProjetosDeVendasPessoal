@@ -1,0 +1,19 @@
+package com.amazon;
+
+public class menuDeEscolhas {
+
+	
+	public static void  menuEscolhas() {
+		System.out.println("Escolha sua Opção de Navegação/n [1] Cadastrar Produtos  [2]Comprar Produtos");
+		switch (menuEscolhasDoCliente) {
+		case 1:
+			InputCadastro.cadastrarProduto();
+			break;
+		case 2:
+			InputCadastro.cadastrarProduto()
+
+		default:
+			break;
+		}
+	}
+}

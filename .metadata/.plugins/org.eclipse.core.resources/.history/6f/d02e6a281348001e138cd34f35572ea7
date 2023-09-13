@@ -1,0 +1,7 @@
+package com.amazon;
+
+public class ListaProdutos {
+	
+	List<String, double, float> produtosCadastrados = new ArrayList<>();
+
+}

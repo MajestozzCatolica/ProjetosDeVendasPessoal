@@ -1,0 +1,39 @@
+package com.amazon;
+
+	public class CadastroProdutos {
+		private String nomeIten;
+		private double quantidadeItens;
+		private double precoIten;
+	    
+		public CadastroProdutos(String nomeIten, double quantidadeItens,
+				double precoIten) {
+			this.nomeIten = nomeIten;
+			this.quantidadeItens = quantidadeItens;
+			this.precoIten = precoIten;
+			System.out.println(nomeIten + "\n" + "Quantidades: " 
+			+ quantidadeItens+ "\n");
+			System.out.println("Preço Total: "somarConformeQuantidade(quantidadeItens, precoIten, precoIten));
+		}
+
+		public String getNomeIten() {
+			return nomeIten;
+		}
+
+		public double getQuantidadeItens() {
+			return quantidadeItens;
+		}
+		public double getPrecoIten() {
+			return precoIten;
+		}
+		
+		public static double somarConformeQuantidade(double quantidadeItens, double precoIten, double precoFinal) {
+			if(quantidadeItens > 1){
+			precoFinal = quantidadeItens * precoIten;
+			}
+			return precoFinal;
+		}
+	    }
+	
+	
+
+

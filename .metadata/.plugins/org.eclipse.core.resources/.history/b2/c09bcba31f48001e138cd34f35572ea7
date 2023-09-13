@@ -1,0 +1,12 @@
+package com.amazon;
+
+
+
+public class Principal {
+	public static void main(String[] args) {
+		InputCadastro produto = new InputCadastro();
+		produto.cadastrarProduto();
+		System.out.println(CadastroProdutos);
+	}
+	}	
+	

@@ -1,0 +1,17 @@
+package com.amazon;
+
+import java.util.ArrayList;
+
+public class listaProdutos {
+	ArrayList<String> listaCadastros = new ArrayList<>();
+
+	public static void add(String nomeIten, double quantidadeItens, float precoIten) {
+				return listaCadastros
+	}
+	public static void imprimeLista() {
+		for(String e : listaCadastros) {
+			System.out.println(e);
+	}
+	
+
+}

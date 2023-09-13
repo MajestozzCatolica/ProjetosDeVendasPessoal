@@ -1,0 +1,11 @@
+package com.amazon;
+
+import java.util.ArrayList;
+
+public class listaProdutos {
+
+	public static void add(String nomeIten, double quantidadeItens, float precoIten) {
+				
+	}
+
+}

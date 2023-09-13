@@ -1,0 +1,11 @@
+package com.amazon;
+
+import java.util.ArrayList;
+
+public class listaProdutos {
+	ArrayList<String> listaCadastros = new ArrayList<>();
+
+	public static void add() {
+		
+	}
+}

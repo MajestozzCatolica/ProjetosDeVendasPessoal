@@ -1,0 +1,23 @@
+package com.amazon;
+
+import java.util.Scanner;
+
+public class Principal {
+	public static void main(String[] args) {
+		Scanner nome = new Scanner(System.in);
+		System.out.println("Digite o Produto: ");
+		String nomeIten = nome.next();
+		
+		Scanner quantidade= new Scanner(System.in);
+		System.out.println("Digite a Quantidade: ");
+		double quantidadeItens = quantidade.nextDouble();
+		
+		Scanner preco = new Scanner(System.in);
+		System.out.println("Digite o Preço: ");
+		double precoIten = preco.nextDouble();
+		
+		CadastroProdutos Mochila =
+	    new CadastroProdutos(nomeIten, quantidadeItens, precoIten);
+		System.out.println(Mochila);	
+	}	
+	}

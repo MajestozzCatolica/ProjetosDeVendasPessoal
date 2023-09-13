@@ -1,0 +1,41 @@
+package com.amazon;
+
+import java.util.Scanner;
+
+public class menuDeEscolhas {
+	
+	public static void  menuEscolhas() {
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Escolha sua Opção de Navegação\n [1] Cadastrar Produtos\n [2] Comprar Produtos\n [3] Sair do Sistema");
+		int menuEscolhass = entrada.nextInt();
+		switch (menuEscolhass) {
+		case 1:
+			InputCadastro.cadastrarProduto();
+			System.out.println("Deseja continuar?\n  [S] para Continuar!\n  [N] Para Voltar ao menu!");
+			while (true) {
+				switch (confirma) {
+				case S:
+					InputCadastro.cadastrarProduto();
+					break;
+					
+				case N:
+					menuDeEscolhas;
+
+				default:
+					break;
+				}
+				InputCadastro.cadastrarProduto();
+			break;
+			}
+		case 2:
+			InputCadastro.cadastrarProduto();
+			break;
+		case 3:
+			System.out.println("Saindo...");
+			break;
+		default:
+			System.out.println("incorreto");
+			break;
+		}
+	}
+}

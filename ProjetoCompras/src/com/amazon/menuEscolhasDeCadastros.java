@@ -1,0 +1,27 @@
+package com.amazon;
+
+import java.util.Scanner;
+
+public class menuEscolhasDeCadastros {
+
+	public static void menuEscolhasSairOuContinuar() {
+		Scanner entrada1 = new Scanner(System.in);
+		System.out.println("Deseja Continuar?\n [1] Sim! [2] Nao!");
+		int menuEscolhass = entrada1.nextInt();
+		switch (menuEscolhass) {
+		case 1:		
+			InputCadastro.cadastrarProduto();
+			int contador = 0;
+			while(contador < 3)
+				InputCadastro.cadastrarProduto();
+			break;
+		case 2:
+			System.out.println("Voltando ao Menu Principal");
+			menuDeEscolhas.menuEscolhas();
+			break;
+		default:
+			System.out.println("Valor Invalido");
+			break;
+}
+}
+}

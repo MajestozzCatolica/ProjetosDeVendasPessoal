@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/alissoninacio/Área de trabalho/Engenharia de Softwares/JAVA /ProjetoCompras/.metadata/.plugins/org.eclipse.jdt.core
+589720654.index
+1865797976.index
+3918080476.index

@@ -1,0 +1,43 @@
+package com.amazon;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Principal {
+	public static void main(String[] args) {
+		List<CadastroProdutos> produtosCadastrados = new ArrayList();
+		
+		boolean continuar = true;
+		
+		while(continuar) {
+		System.out.println("Digite um Produto ou digite sair para encerrar o cadastro de produtos ");
+		String entrada = scanner.nextLine();
+		
+		if(entrada.equalsIgnoreCase("sair")) {
+			continuar = false;
+		} else {
+		}
+		Scanner nome = new Scanner(System.in);
+		System.out.println("Digite o Produto: ");
+		String nomeIten = nome.next();
+		
+		Scanner quantidade= new Scanner(System.in);
+		System.out.println("Digite a Quantidade: ");
+		double quantidadeItens = quantidade.nextDouble();
+		
+		Scanner preco = new Scanner(System.in);
+		System.out.println("Digite o Preço: ");
+		float precoIten = preco.nextFloat();
+		
+		CadastroProdutos Produto1 =
+	    new CadastroProdutos(nomeIten, quantidadeItens, precoIten);
+		
+		produtosCadastrados.add(Produto1);
+		
+		for (CadastroProdutos iten : produtosCadastrados) {
+            System.out.println(iten);
+		}
+		}
+	}	
+	}
